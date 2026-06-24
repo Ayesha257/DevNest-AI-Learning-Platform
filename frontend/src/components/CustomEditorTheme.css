@@ -1,0 +1,64 @@
+/* Custom Ace Editor Theme */
+.ace-custom-theme .ace_gutter {
+  background: #2d2d2d;
+  color: #8c8c8c;
+}
+
+.ace-custom-theme .ace_content {
+  background: #4d91ae;
+  color: #000000 !important; /* Change white text to black */
+}
+
+/* Syntax highlighting colors */
+.ace-custom-theme .ace_comment {
+  color: #794509 !important; /* Dark orange for comments */
+}
+
+.ace-custom-theme .ace_keyword {
+  color: #6a0dad !important; /* Dark purple for keywords (def, if, else, etc.) */
+}
+
+.ace-custom-theme .ace_string {
+  color: #006400 !important; /* Dark green for strings */
+}
+
+.ace-custom-theme .ace_variable {
+  color: #000000 !important; /* Black for variables */
+}
+
+.ace-custom-theme .ace_constant.ace_numeric {
+  color: #8b0000 !important; /* Dark red for numbers */
+}
+
+.ace-custom-theme .ace_function {
+  color: #00008b !important; /* Dark blue for function names */
+}
+
+.ace-custom-theme .ace_support.ace_function {
+  color: #00008b !important; /* Dark blue for built-in functions */
+}
+
+.ace-custom-theme .ace_operator {
+  color: #000000 !important; /* Black for operators */
+}
+
+/* Additional specific colors */
+.ace-custom-theme .ace_identifier {
+  color: #000000 !important; /* Black for identifiers */
+}
+
+.ace-custom-theme .ace_paren {
+  color: #000000 !important; /* Black for parentheses */
+}
+
+.ace-custom-theme .ace_bracket {
+  color: #000000 !important; /* Black for brackets */
+}
+
+.ace-custom-theme .ace_operator {
+  color: #000000 !important; /* Black for operators like +, -, =, etc. */
+}
+
+.ace-custom-theme .ace_meta.ace_tag {
+  color: #6a0dad !important; /* Dark purple for HTML/XML tags */
+}
